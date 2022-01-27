@@ -1,0 +1,130 @@
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+
+
+/* .pricing ul li {
+    position: relative;
+    padding-bottom: 10px;
+} */
+
+.pricing ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.pricing .header {
+    background-color: #111;
+    color: white;
+    /* font-size: 25px; */
+
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+
+.pricing .featured {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #4154f1;
+    color: #fff;
+}
+
+
+
+
+
+/* .pricing-section {
+    margin: 20px 0;
+    padding-top: 120px;
+    border-radius: 10px;
+    padding-bottom: 31px;
+} */
+.pricing-header {
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+}
+
+.pricing-header-text {
+    font-size: 2.2rem;
+    font-weight: 900;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-basic {
+    width: 100%;
+    color: white;
+    background-color: #04998a;
+}
+.btn-premium {
+    width: 100%;
+    color: white;
+    background-color: #04991d;
+}
+.btn-golden {
+    width: 100%;
+    color: white;
+    background-color: #998704;
+}
+.btn-ultimate {
+    width: 100%;
+    color: white;
+    background-color: #990434;
+}
+
+.pricing-price-basic {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #a5eee7;
+    padding: 5px;
+}
+.pricing-price-premium {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #99ef9b;
+    padding: 5px;
+}
+.pricing-price-golden {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #eecaa5;
+    padding: 5px;
+}
+.pricing-price-ultimate {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #eea5b9;
+    padding: 5px;
+}
+
+.pricing-body {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.pricing-box {
+    padding: 15px;
+    /* background-color:red;border-radius:20px; */
+}    
+
+.border-top-radius-20{
+    border-top-left-radius:15px;border-top-right-radius:15px;
+    
+}
+.border-bottom-radius-20{
+  /* border-bottom: 15px; */
+  
+    border-bottom-left-radius:15px;border-bottom-right-radius:15px;
+}
